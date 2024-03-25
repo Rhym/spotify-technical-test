@@ -1,7 +1,7 @@
 # Chronicle | Technical test
 
 > [!NOTE]
-> I thought I'd give XState a go, it's pretty fun. Please don't laugh at it, as I know it's a bit shit but I thought there's not a lot of point going deep into a domain for a technical test :P
+> I thought I'd give XState a go, it's pretty fun. It's pretty basic but I thought there's not a lot of point going deep into a domain for a technical test :P
 
 ![Screenshot](./assets/screenshot.png)
 
