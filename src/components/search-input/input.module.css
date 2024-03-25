@@ -1,0 +1,68 @@
+.root {
+  position: relative;
+}
+
+.input {
+  display: block;
+  height: 3rem;
+  background: var(--neutral-800);
+  border-radius: 1.5rem;
+  border: 0;
+  outline: 0;
+  padding: 0 3rem;
+  color: inherit;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input:not([disabled]):hover,
+.input:not([disabled]):focus {
+  background: var(--neutral-700);
+}
+
+.input:not([disabled]):focus {
+  outline-style: solid;
+  outline-width: 2px;
+  outline-color: var(--neutral-50);
+}
+
+.affix {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 3rem;
+  height: 3rem;
+  z-index: 1;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.suffix {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+}
+
+.suffix:not(disabled):focus-visible {
+  outline-style: solid;
+  outline-width: 2px;
+  outline-color: var(--brand-500);
+}
+
+.affix svg,
+.suffix svg {
+  width: 1.125rem;
+  height: 1.125rem;
+}

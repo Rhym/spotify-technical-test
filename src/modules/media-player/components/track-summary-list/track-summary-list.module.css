@@ -1,0 +1,17 @@
+.root {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.item {
+  display: block;
+}
+
+.itemSkeleton {
+  display: block;
+}
+
+.itemSkeleton + .itemSkeleton {
+  margin-top: 1rem;
+}

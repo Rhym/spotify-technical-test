@@ -1,0 +1,11 @@
+.typography {
+  margin: 0;
+}
+
+.typography--level-sm {
+  font-size: 0.875rem;
+}
+
+.typography--color-weak {
+  color: var(--neutral-400);
+}

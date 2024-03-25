@@ -1,0 +1,27 @@
+.root {
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item,
+.itemSkeleton {
+  border-top: 1px solid var(--neutral-800);
+  padding-top: 0.75rem;
+}
+
+.item + .item,
+.itemSkeleton + .itemSkeleton {
+  margin-top: 0.75rem;
+}
+
+.itemSkeletonInner {
+  width: 100%;
+  max-width: 16rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}

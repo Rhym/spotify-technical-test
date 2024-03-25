@@ -1,0 +1,6 @@
+.root {
+  background: var(--danger-950);
+  border: 1px solid var(--danger-500);
+  padding: 0.75em 1em;
+  border-radius: 0.25em;
+}

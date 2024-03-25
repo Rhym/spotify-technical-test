@@ -1,0 +1,51 @@
+.root {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 0; /* Fix truncating text in flex */
+  max-height: 100%;
+}
+
+.brand {
+  display: flex;
+  column-gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.brand.brand--hidden {
+  display: none;
+}
+
+.form {
+  flex: 0 0 auto;
+
+  /* Prevent sibling elements clipping over the outline of any child inputs */
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 1024px) {
+  .form {
+    background: var(--neutral-900);
+  }
+}
+
+.list {
+  display: block;
+  flex: 1 1 auto;
+  padding: 1rem 0 5rem;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (min-width: 1024px) {
+  .list {
+    padding: 1rem 0 0;
+  }
+}
+
+.list::-webkit-scrollbar {
+  display: none;
+}

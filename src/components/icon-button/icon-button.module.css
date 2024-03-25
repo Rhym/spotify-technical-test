@@ -1,0 +1,30 @@
+.root {
+  background: var(--brand-500);
+  color: var(--neutral-950);
+  border-radius: 0.5rem;
+  border: none;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 2rem;
+  padding: 0;
+  overflow: visible;
+  text-align: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: 0;
+}
+
+.root:focus-visible {
+  outline-style: solid;
+  outline-width: 2px;
+  outline-offset: 2px;
+  outline-color: var(--brand-500);
+}
+
+.root svg {
+  width: 1.125rem;
+  height: 1.125rem;
+}
